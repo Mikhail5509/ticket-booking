@@ -5,16 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint ."
+
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
@@ -22,12 +20,37 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
-    "eslint": "^9.25.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
-    "typescript": "~5.8.3",
+    "typescript": "^4.9.5",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikhail5509/ticket-booking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikhail5509/ticket-booking/issues"
+  },
+  "homepage": "https://github.com/Mikhail5509/ticket-booking#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

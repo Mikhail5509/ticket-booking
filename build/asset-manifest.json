@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Mikhail5509/ticket-booking/static/css/main.c7a0b2ec.css",
+    "main.js": "/Mikhail5509/ticket-booking/static/js/main.2ba17c90.js",
+    "static/media/background.jpg": "/Mikhail5509/ticket-booking/static/media/background.1da516674db4c95c7f60.jpg",
+    "static/media/how-it-works-bg.jpg": "/Mikhail5509/ticket-booking/static/media/how-it-works-bg.f80546f6d9c2d5d49b74.jpg",
+    "static/media/evgeniy.jpg": "/Mikhail5509/ticket-booking/static/media/evgeniy.68c038a785d86fc34d6f.jpg",
+    "static/media/ekaterina.jpg": "/Mikhail5509/ticket-booking/static/media/ekaterina.5182014e9d7c4335b3b1.jpg",
+    "index.html": "/Mikhail5509/ticket-booking/index.html",
+    "main.c7a0b2ec.css.map": "/Mikhail5509/ticket-booking/static/css/main.c7a0b2ec.css.map",
+    "main.2ba17c90.js.map": "/Mikhail5509/ticket-booking/static/js/main.2ba17c90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7a0b2ec.css",
+    "static/js/main.2ba17c90.js"
+  ]
+}
