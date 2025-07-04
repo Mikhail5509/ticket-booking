@@ -1,0 +1,94 @@
+/* HowItWorks.css */
+.how-it-works-section {
+  width: 100%;
+  background-image: url('/src/assets/how-it-works-bg.jpg'); /* Темный фон для контраста с белым текстом */
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+.content-container {
+  max-width: 1681px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.howItWork-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.learn-more-btn {
+  width: 325px;
+  height: 60px;
+  display: inline-block;
+  padding: 12px 24px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  color: #FFA800; 
+}
+
+.learn-more-btn svg {
+  transition: transform 0.3s;
+}
+
+.learn-more-btn:hover svg {
+  transform: translateX(3px);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-wrapper {
+  width: 120px;
+  height: 120px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px #e5e5e5;
+  
+  border: 1px solid #f0f0f0;
+}
+
+.feature-icon {
+  font-size: 48px;
+  color: #FFA800;
+}
+
+.feature-text {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+}
